@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaJam Coffee Bar Jobs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="javajam.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+   <header>
+     <h1><a href="index.html">U.S. Historical Sites</a></h1>
+  </header>
+  <nav>
+    <img id="Logo" src="usalogo.jpg" width="220" height="128" alt="Logo">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About_Us.html">About Us</a></li> 
+      <li><a href="Survery.html">Survey</a></li>
+      <li><a href="Location_1.html">Alcatraz Island</a></li>
+      <li><a href="Location_2.html">Statue of Liberty </a></li>
+      <li><a href="Location_3.html"> Yosemite National Park</a></li>
+      <li><a href="Location_4.html"> Castillo de San Marcos</a></li>
+      <li><a href="Location_5.html"> Ford's Theatre</a></li>
+      <li><a href="Location_6.html"> September 11 Memorial</a></li>
+      <li><a href="Location_7.html"> Yellowstone National Park</a></li>
+      <li><a href="Location_8.html"> Martin Luther King Jr. National Park</a></li>
+      <li><a href="Location_9.html"> Lincoln Memorial</a></li>
+
+	</ul>
+  </nav>
+  <main>
+    
+    <h2>Locations</h2>
+	<p></p>
+  <!DOCTYPE html>
+<html>
+<body>
+
+<form id="myForm">
+  <label for="year">Choose a year:</label><br>
+  <select id="year" name="year">
+    <option value="1672">1672</option>
+    <option value="1843">1843</option>
+    <option value="1864">1864</option>
+    <option value="1884">1884</option>
+    <option value="1872">1872</option>
+    <option value="1922">1922</option>
+    <option value="1929">1929</option>
+    <option value="1934">1934</option>
+    <option value="2006">2006</option>
+  </select><br><br>
+  <label for="location">Choose a location:</label><br>
+  <select id="location" name="location">
+    <option value="Washington D.C.">Washington D.C.</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Idaho">Idaho</option>
+    <option value="New York">New York</option>
+    <option value="Florida">Florida</option>
+    <option value="California">California</option>
+    <option value="San Francisco">San Francisco</option>
+  </select><br><br>
+  <input type="button" value="Submit" onclick="redirect()">
+</form>
+
+<script>
+function redirect() {
+  var year = document.getElementById("myForm").elements.namedItem("year").value;
+  var location = document.getElementById("myForm").elements.namedItem("location").value;
+  
+  if (location == "San Francisco" && year == "1934") {
+    window.location.href = "Location_1.html"; // Alcatraz Island
+  } else if (location == "New York" && year == "1884") {
+    window.location.href = "Location_2.html"; // Statue of Liberty
+  } else if (location == "California" && year == "1864") {
+    window.location.href = "Location_3.html"; // Yosemite National Park
+  } else if (location == "Florida" && year == "1672") {
+    window.location.href = "Location_4.html"; // Castillo de San Marcos
+  } else if (location == "Washington D.C." && year == "1843") {
+    window.location.href = "Location_5.html"; // Ford's Theatre
+  } else if (location == "New York" && year == "2006") {
+    window.location.href = "Location_6.html"; // September 11 Memorial
+  } else if (location == "Idaho" && year == "1872") {
+    window.location.href = "Location_7.html"; // Yellowstone National Park
+  } else if (location == "Georgia" && year == "1929") {
+    window.location.href = "Location_8.html"; // Martin Luther King, Jr. National Historical Park
+  } else if (location == "Washington D.C." && year == "1922") {
+    window.location.href = "Location_9.html"; // Lincoln Memorial
+  }
+}
+</script>
+<h3>*Sample size<h3>
+  <p> San Francisco -- 1934 (Alcatraz Island) </p>
+  <p> New York -- 1884 (Statue of Liberty) </p>
+  <p> California -- 1864 (Yosemite National Park) </p>
+  <p> Florida -- 1672 (Castillo de San Marcos) </p>
+  <p> Washington D.C. -- 1843 (Ford's Theatre) </p>
+  <p> New York -- 2006 (September 11 Memorial) </p>
+  <p> Idaho -- 1872 (Yellowstone National park) </p>
+  <p> Georgia -- 1929 (Martin Lurther King. Natinal Historical Park)</p>
+  <p> Washington D.C. -- 1922 (Lincoln Memorial)</p>
+
+
+</body>
+</html>
+
+  
+  </body>
+  </html>
+  </main>
+  <footer>
+Copyright &copy; 2024 Networks Project<br>
+<a href="mailto:Angel@Raygoza.com">Angel.Raygoza@laverne.edu</a>
+  </footer>
+</div>
+</body>
+</html>
+
+
